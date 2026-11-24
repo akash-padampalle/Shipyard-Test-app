@@ -8,12 +8,9 @@
 import Testing
 @testable import Shipyard_Test_app
 
+@MainActor
 struct Shipyard_Test_appTests {
-
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
-        // Swift Testing Documentation
-        // https://developer.apple.com/documentation/testing
+    @Test func greetsByName() {
+        #expect(greeting(for: "Akash") == "Hello, Akash!")
     }
-
 }
