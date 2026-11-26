@@ -8,5 +8,7 @@
     <string>upload</string>
     <key>testFlightInternalTestingOnly</key>
     <true/>
+    <key>manageAppVersionAndBuildNumber</key>
+    <false/>
 </dict>
 </plist>
